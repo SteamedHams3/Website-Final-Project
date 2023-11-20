@@ -7,8 +7,17 @@ body{
     background-color:#000000;
 }
 .navbar {
-display: block;
-padding: 30px;
+display: flex;
+justify-content: space-around;
+padding: 15px 0;
 background-color:#FFB6C1;
+}
 
+
+ul{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 20px;
 }
