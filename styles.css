@@ -40,37 +40,83 @@ h1{
     color: #000000;
 }
 
-.typography-container{
+
+
+.Typographic-Systems-image-container{
     display: flex;
     justify-content: center;
-    padding: 60px;
-    text-align: left;
-    background-color: #FFB6C1;
+    position: relative;
+    width: 100%;
+    height: 300px;
 }
-.typography-type-container{
-    display: flex;
-    justify-content: left;
-    padding: 0px;
-    text-align: left;
-    background-color: #FFB6C1;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.Typographic-Systems-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Typographic-Systems-image-container button { /* reference chatGPT*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*reference chat GPT*/
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
+    color: #000000;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;  
 }
-
-.CARP-container{
+.Typographic-Systems-image-container button:hover {
+background-color: #FFB6C1;
+color: #FFFFFF;
+}
+.Typographic-Systems-image-container button:active {
+    background-color: #32a431;
+    color:#000000;
+    box-shadow: 5px 5px #FFB6C1; 
+}
+.CARP-Project-image-container{
     display: flex;
     justify-content: center;
-    padding: 60px;
-    text-align: left;
-    background-color: #FFB6C1;
+    position: relative;
+    width: 100%;
+    height: 300px;
 }
 
-.CARP-type-container{
-    display: flex;
-    justify-content: left;
-    padding: 0px;
-    text-align: left;
-    background-color: #FFB6C1;
+.CARP-Project-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CARP-Project-image-container button { /* reference chatGPT*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*reference chat GPT*/
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;  
+}
+.CARP-Project-image-container button:hover {
+background-color: #FFB6C1;
+color: #FFFFFF;
+}
+.CARP-Project-image-container button:active {
+    background-color: #32a431;
+    color:#000000;
+    box-shadow: 5px 5px #FFB6C1; 
 }
 
 
@@ -106,7 +152,7 @@ h1{
     transition-duration: .4s;  
 }
 .Coding-Worksheets-image-container button:hover {
-background-color: #8B0000;
+background-color: #FFB6C1;
 color: #FFFFFF;
 }
 .Coding-Worksheets-image-container button:active {
@@ -114,6 +160,49 @@ color: #FFFFFF;
     color:#000000;
     box-shadow: 5px 5px #FFB6C1; 
 }
+
+.Report-image-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.Report-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Report-image-container button { /* reference chatGPT*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*reference chat GPT*/
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;  
+}
+.Report-image-container button:hover {
+background-color: #FFB6C1;
+color: #FFFFFF;
+}
+.Report-image-container button:active {
+    background-color: #32a431;
+    color:#000000;
+    box-shadow: 5px 5px #FFB6C1; 
+}
+
+
+
+
 
 .report-container{
     display: flex;
@@ -167,5 +256,5 @@ footer {
     padding: 10px 0px;
 }
 hr {
-    border: 3px solid black;
+    border: 3px solid #FFB6C1;
 }
