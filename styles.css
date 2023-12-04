@@ -73,6 +73,37 @@ h1{
     background-color: #FFB6C1;
 }
 
+.Coding-Worksheets-container{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    text-align: left;
+    background-color: #FFB6C1;
+}
+
+.Coding-Worksheets-type-container{
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    text-align: left;
+    background-color: #FFB6C1;
+}
+
+.report-container{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    text-align: left;
+    background-color: #FFB6C1;
+}
+
+.report-type-container{
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    text-align: left;
+    background-color: #FFB6C1;
+}
 
 button{
     border: 1px solid #FFFFFF;
