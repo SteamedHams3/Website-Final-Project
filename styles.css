@@ -272,16 +272,65 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 }
+
+
 .image-container-typographic-systems-page{
     border: 1px dotted #000000;
     width: 275px;
     height: 400px;
     padding: 4px;
+    margin-bottom: 10px;
 }
 
 .typography-page-text-image-container{
     background-color: #FFB6C1;
     width: 275px;
+    height: 200px;
+    padding: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.CARP-page-gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    
+    
+.image-container-CARP-systems-page{
+        border: 1px dotted #000000;
+        width: 400px;
+        height: 600px;
+        padding: 4px;
+    }
+    
+    
+.CARP-page-text-image-container{
+        background-color: #FFB6C1;
+        width: 400px;
+        height: 200px;
+        padding: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+.final-CARP-page-image-container{
+    border: 1px dotted #000000;
+     width: 600px;
+    height: 800px;
+    padding: 4px;
+}
+
+.final-CARP-page-text-image-container{
+    background-color: #FFB6C1;
+    width: 600px;
     height: 200px;
     padding: 4px;
     padding-top: 4px;
