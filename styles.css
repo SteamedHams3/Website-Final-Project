@@ -18,7 +18,6 @@ background-color:#FFB6C1;
 }*/
 
 
-
 ul{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #000000;
@@ -268,10 +267,23 @@ footer {
 hr {
     border: 3px solid #FFB6C1;
 }
-.typography-gallery-container{
+.typography-page-gallery-container{
 display: flex;
 flex-wrap: wrap;
+justify-content: space-evenly;
 }
-.image-container-typographic-systems{
-    
+.image-container-typographic-systems-page{
+    border: 1px dotted green;
+    width: 275px;
+    height: 400px;
+    padding: 4px;
+}
+
+.typography-page-text-image-container{
+    background-color: #FFB6C1;
+    width: 275px;
+    height: 200px;
+    padding: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
