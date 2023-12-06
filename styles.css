@@ -48,8 +48,11 @@ h1{
     position: relative;
     width: 100%;
     height: 300px;
+    border: 5px solid #FFB6C1;
 }
-
+.Typographic-Systems-image-container:hover{
+    border: 5px solid #000000;
+}
 .Typographic-Systems-image-container img {
     width: 100%;
     height: 100%;
@@ -86,6 +89,10 @@ color: #FFFFFF;
     position: relative;
     width: 100%;
     height: 300px;
+    border: 5px solid #FFB6C1;
+}
+.CARP-Project-image-container:hover{
+    border: 5px solid #000000;
 }
 
 .CARP-Project-image-container img {
@@ -120,14 +127,16 @@ color: #FFFFFF;
 }
 
 
-
-
 .Coding-Worksheets-image-container{
     display: flex;
     justify-content: center;
     position: relative;
     width: 100%;
     height: 300px;
+    border: 5px solid #FFB6C1;
+}
+.Coding-Worksheets-image-container:hover{
+    border: 5px solid #000000;
 }
 
 .Coding-Worksheets-image-container img {
@@ -167,8 +176,12 @@ color: #FFFFFF;
     position: relative;
     width: 100%;
     height: 300px;
+    border: 5px solid #FFB6C1;
 }
 
+.Report-image-container:hover{
+    border: 5px solid #000000;
+}
 .Report-image-container img {
     width: 100%;
     height: 100%;
@@ -243,18 +256,22 @@ button:active {
     box-shadow: 5px 5px #000000;
 }
 
-
-
-
 footer {
-    background-color: #000000;
+    background-color: #FFB6C1;
     height: 25px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    color: #FFFFFF;
+    color: #000000;
     padding: 10px 0px;
 }
 hr {
     border: 3px solid #FFB6C1;
+}
+.typography-gallery-container{
+display: flex;
+flex-wrap: wrap;
+}
+.image-container-typographic-systems{
+    
 }
