@@ -273,7 +273,7 @@ flex-wrap: wrap;
 justify-content: space-evenly;
 }
 .image-container-typographic-systems-page{
-    border: 1px dotted green;
+    border: 1px dotted #000000;
     width: 275px;
     height: 400px;
     padding: 4px;
