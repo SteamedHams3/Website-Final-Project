@@ -267,30 +267,40 @@ footer {
 hr {
     border: 3px solid #FFB6C1;
 }
-.typography-page-gallery-container{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-}
 
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    
+    
+ .image-container{
+        border: 1px dotted #000000;
+        width: 275px;
+        height: 400px;
+        padding: 4px;
+        margin-bottom: 10px;
+    }
 
-.image-container-typographic-systems-page{
-    border: 1px dotted #000000;
-    width: 275px;
-    height: 400px;
-    padding: 4px;
-    margin-bottom: 10px;
-}
+    .image-container:hover{
+        border: 1px dotted #FFB6C1;
+        width: 275px;
+        height: 400px;
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+    
+ .text-container{
+        background-color: #FFB6C1;
+        width: 275px;
+        height: 200px;
+        padding: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: 10px;
+    }
 
-.typography-page-text-image-container{
-    background-color: #FFB6C1;
-    width: 275px;
-    height: 200px;
-    padding: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-top: 10px;
-}
 
 
 
