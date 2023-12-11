@@ -84,7 +84,7 @@ color: #FFFFFF;
 }
 
 .typography-group {
-    width: 275px
+    width: 400px
 }
 .CARP-Project-image-container{
     display: flex;
@@ -174,7 +174,7 @@ color: #FFFFFF;
 }
 
 .Coding-Worksheets-group{
-     width: 275px
+     width: 400px;
 }
 
 .Report-image-container{
@@ -283,27 +283,37 @@ hr {
     
     .text-caption {
         background-color: #FFB6C1;
-        width: 275px;
+        width: 400px;
         height: 400px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
         text-align: left;
-        margin: 10px 10px;
+        margin: 2px 2px;
+      
+    }
+    
+    .text-caption:hover {
+        background-color: #FFB6C1;
+        opacity: 0.7;
+        width: 400px;
+        height: 400px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        margin: 2px 2px;
     }
 
  .image-container{
-        border: 1px dotted #000000;
-        width: 275px;
-        height: 400px;
-        padding: 4px;
+        border: 1px solid #000000;
+        width: 400px;
+        height: 600px;
         margin-bottom: 10px;
     }
 
     .image-container:hover{
-        border: 1px dotted #FFB6C1;
-        width: 275px;
-        height: 400px;
-        padding: 4px;
+        border: 1px solid #FFB6C1;
+        width: 400px;
+        height: 600px;
         margin-bottom: 10px;
     }
     
@@ -317,12 +327,6 @@ hr {
         margin-top: 10px;
     }
 
-
-
-
-
-
-
 .CARP-page-gallery-container{
     display: flex;
     flex-wrap: wrap;
@@ -331,11 +335,18 @@ hr {
     
     
 .image-container-CARP{
-        border: 1px dotted #000000;
+        border: 1px solid #000000;
         width: 400px;
         height: 600px;
         padding: 4px;
     }
+
+.image-container-CARP:hover{
+    border: 1px solid #FFB6C1;
+    width: 400px;
+    height: 600px;
+    padding: 4px;
+}
     
     
 .CARP-page-text-image-container{
@@ -348,8 +359,15 @@ hr {
     }
 
 .final-CARP-page-image-container{
-    border: 1px dotted #000000;
+    border: 1px solid #000000;
     width: 600px;
+    height: 800px;
+    padding: 4px;
+}
+
+.final-CARP-page-image-container:hover{
+    border: 1px solid #FFB6C1;
+    width: 600px; 
     height: 800px;
     padding: 4px;
 }
@@ -374,9 +392,19 @@ hr {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: left;
-    margin: 10px 10px;
+    margin: 2px 2px;
 }
 
+.text-caption-CARP:hover{
+    background-color: #FFB6C1;
+    opacity: 0.7;
+    width: 400px;
+    height: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 2px 2px;
+}
 .text-caption-big-CARP{
     background-color: #FFB6C1;
     width: 600px;
