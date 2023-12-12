@@ -84,7 +84,7 @@ color: #FFFFFF;
 }
 
 .typography-group {
-    width: 400px
+    width: 600px;
 }
 .CARP-Project-image-container{
     display: flex;
@@ -174,7 +174,7 @@ color: #FFFFFF;
 }
 
 .Coding-Worksheets-group{
-     width: 400px;
+     width: 600px;
 }
 
 .Report-image-container{
@@ -283,7 +283,7 @@ hr {
     
     .text-caption {
         background-color: #FFB6C1;
-        width: 400px;
+        width: 600px;
         height: 400px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
@@ -295,7 +295,7 @@ hr {
     .text-caption:hover {
         background-color: #FFB6C1;
         opacity: 0.7;
-        width: 400px;
+        width: 600px;
         height: 400px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
@@ -305,14 +305,14 @@ hr {
 
  .image-container{
         border: 1px solid #000000;
-        width: 400px;
+        width: 600px;
         height: 600px;
         margin-bottom: 10px;
     }
 
     .image-container:hover{
         border: 1px solid #FFB6C1;
-        width: 400px;
+        width: 600px;
         height: 600px;
         margin-bottom: 10px;
     }
